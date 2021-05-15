@@ -15,7 +15,7 @@ dnf -y install sublime-text ;
 rpm --import https://packages.microsoft.com/keys/microsoft.asc ;
 sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo' ;
 dnf check-update ;
-dnf install code ;
+dnf -y install code ;
 
 #remmina #Vagrant
 dnf -y install remmina clipgrab putty vagrant filezilla ;
@@ -32,9 +32,13 @@ dnf -y install telegram-desktop ;
 dnf config-manager --set-enabled google-chrome ;
 dnf -y install google-chrome-stable ;
 
-googlemusic
+#Googlemusic
 
 #Dbeaver
 rpm -ivh https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
+
+#Oh My Bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+
 
 #095EZrUP8VY32s1UNFXV
