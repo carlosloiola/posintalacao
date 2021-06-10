@@ -18,7 +18,7 @@ dnf check-update ;
 dnf -y install code ;
 
 #remmina #Vagrant
-dnf -y install remmina clipgrab putty vagrant filezilla ;
+dnf -y install remmina clipgrab putty vagrant filezilla flameshot;
 
 #asbru
 
