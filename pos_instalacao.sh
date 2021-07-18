@@ -4,7 +4,7 @@
  dnf -y install fedora-workstation-repositories -y ;
  dnf -y update
 #deeping
- dnf -y groupinstall 'Deepin Desktop' ;
+#dnf -y groupinstall 'Deepin Desktop' ;
 
 #Sublime
 rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg ;
@@ -40,5 +40,6 @@ rpm -ivh https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
 #Oh My Bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
+dnf copr enable gqman69/plank;
 
 #095EZrUP8VY32s1UNFXV
