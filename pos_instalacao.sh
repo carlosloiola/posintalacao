@@ -2,7 +2,7 @@
 
 #Pos - instalação desktop
  dnf -y install fedora-workstation-repositories -y ;
- dnf -y update
+ dnf -y update ;
 #deeping
 #dnf -y groupinstall 'Deepin Desktop' ;
 
@@ -18,7 +18,7 @@ dnf check-update ;
 dnf -y install code ;
 
 #remmina #Vagrant
-dnf -y install remmina clipgrab putty vagrant filezilla flameshot neofetch;
+dnf -y install remmina putty vagrant filezilla flameshot neofetch terminator;
 
 #asbru
 
