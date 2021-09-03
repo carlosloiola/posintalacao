@@ -18,7 +18,7 @@ dnf check-update ;
 dnf -y install code ;
 
 #remmina #Vagrant
-dnf -y install remmina putty vagrant filezilla flameshot neofetch terminator;
+dnf -y install remmina putty vagrant filezilla flameshot neofetch terminator htop;
 
 #asbru
 
